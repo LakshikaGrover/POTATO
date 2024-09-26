@@ -1,109 +1,71 @@
 PART-3
 Instructions for Using the Code from GitHub Repository
 
-1. Clone the Repository: You will need to clone your repository onto your own computer to run the code. Here’s how you can do it:
+1. Clone the Repository
 
-# Use the following command to clone the repository
+You needs to download (clone) the project files from your GitHub repository onto your own computer. You need to provide the link to your own repository. Here’s how it’s done:
+
+Step 1: Open Command Prompt (Windows) or Terminal (Mac/Linux).
+
+Step 2: Run the following command:
+
 git clone https://github.com/LakshikaGrover/POTATO/tree/POTATO
 
-This command will create a folder named potato-take-home-task in your directory.
-
-
-2. Navigate to the Project Folder: After cloning the repository, the user should navigate into the project folder using the following command:
-
-cd potato-take-home-task
-
-
-4. Install the Required Libraries: Inside the project folder, they should install the required libraries using pip:
-
-pip install pandas
-
-This ensures that they have all the dependencies installed before running the script.
-
-
-5. Run the Script: With the repository set up and the libraries installed, they can now run the tattletake_analysis.py script. They should navigate to the folder where the script is located (which should already be potato-take-home-task) and run:
-
-python tattletake_analysis.py
-
-This will start the script, and it will prompt them to enter a search term (e.g., "COVID," "Britney Spears," etc.).
-
-
-6. Input the Search Term: When prompted, they can type in the search term they want to analyze. For example:
-
-Enter the search term you want to analyze (e.g., 'music'): COVID
-
-
-7. View the Results: The script will then display the insights based on the tweets containing the entered search term.
-
-
-
-Additional GitHub Instructions
-
-If you want to include additional instructions in your GitHub repository (like in a README file), you can structure it like this:
-
-README.md Example:
-
-# POTATO Take-Home Task
-
-This repository contains the code for the POTATO (Panel-based Open Term-level Aggregate Twitter Observatory) take-home task. The script is designed to analyze tweets from a dataset and provide insights based on search terms.
-
-## How to Use
-
-### 1. Clone the Repository
-bash
-git clone https://github.com/your-username/potato-take-home-task.git
+What Happens Here:
+This command creates a new folder in the current directory on Your’s computer, and it will contain all the project files from my GitHub repository.
 
 2. Navigate to the Project Folder
 
-cd potato-take-home-task
+After cloning the repository, You needs to navigate (move into) the project folder. This is a command to tell the system which folder to work in.
 
-3. Install Dependencies
+Step 1: Run this command:
+
+cd Twitter_tweet_query
+
+What Happens Here:
+cd stands for "change directory." It tells the system to move into the folder named Twitter_tweet query (which was created when the repository was cloned in Step 1).
+
+You doesn't need to write your own folder name here. you just need to use the exact name of the folder created when they cloned the repository, which is Twitter_tweet query in this case.
+
+3. Install Required Libraries
+
+The code might rely on certain libraries that are not available by default in Python. To install these dependencies, You needs to run a command like the following:
+
+Step 1: Run this command:
 
 pip install pandas
+
+What Happens Here:
+pip is the package installer for Python. This command installs the pandas library, which is necessary for working with data files (like .tsv files).
+
+If you have other dependencies, list them all in a requirements.txt file and ask You to run:
+
+pip install -r requirements.txt
+
+This command will install all the required libraries listed in requirements.txt in one go.
 
 4. Run the Script
 
-python tattletake_analysis.py
+After setting up the repository and installing the necessary libraries, You are ready to run your analysis script.
+
+Step 1: Run the following command:
+
+python Twitter_tweet_query.ipynb
+
+
+What the Script Should Do:
+
+It should prompt You to enter a search term, like COVID or music.
+
+After entering a search term, the script should provide various insights, such as the number of tweets per day, number of unique users, etc.
+
 
 5. Enter a Search Term
 
-When prompted, enter the search term you want to analyze (e.g., "COVID," "music").
+When the script runs, it should display a message asking You to input a search term:
+
+Enter the search term you want to analyze (e.g., 'music'):
+
+You can then type in any term, such as COVID, and the script will process this input and display the results.
 
 6. View Results
-
-The script will display insights based on the search term you entered.
-
-Important Notes
-
-Ensure you have the required .tsv files in the project folder before running the script.
-
-If you encounter any issues, feel free to create an issue in this repository or contact the project owner.
-
-
-By including this type of README file and instructions, users will be able to set up and use your code directly from GitHub without needing further assistance.
-
-### Summary of Steps:
-1. **Clone Repository**: 
-   bash
-   git clone https://github.com/your-username/potato-take-home-task.git
-
-2. Navigate to Folder:
-
-cd potato-take-home-task
-
-
-3. Install Dependencies:
-
-pip install pandas
-
-
-4. Run the Script:
-
-python tattletake_analysis.py
-
-
-5. Input Search Term and View Results.
-
-
-
-With these steps, the user should be able to clone your repository, set it up, and run the code without needing further help. Let me know if you'd like to include any additional details or clarifications!
