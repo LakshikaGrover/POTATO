@@ -20,12 +20,12 @@ After cloning the repository, You needs to navigate (move into) the project fold
 
 Step 1: Run this command:
 
-cd Twitter_tweet_query
+cd POTATO
 
 What Happens Here:
 cd stands for "change directory." It tells the system to move into the folder named Twitter_tweet query (which was created when the repository was cloned in Step 1).
 
-You doesn't need to write your own folder name here. you just need to use the exact name of the folder created when they cloned the repository, which is Twitter_tweet query in this case.
+You doesn't need to write your own folder name here. you just need to use the exact name of the folder created when they cloned the repository, which is POTATO in this case.
 
 3. Install Required Libraries
 
@@ -51,7 +51,7 @@ After setting up the repository and installing the necessary libraries, You are 
 Step 1: Run the following command:
 
 python Twitter_tweet_query.ipynb
-
+this command tells the system to execute your python script
 
 What the Script Should Do:
 
